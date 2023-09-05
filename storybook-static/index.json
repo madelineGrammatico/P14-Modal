@@ -1,1 +1,1 @@
-{"v":4,"entries":{}}
+{"v":4,"entries":{"modal--default":{"type":"story","id":"modal--default","name":"Default","title":"Modal","importPath":"./src/components/Modal/Modal.stories.ts","tags":["story"]}}}
