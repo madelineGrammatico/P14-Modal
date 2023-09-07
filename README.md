@@ -1,4 +1,4 @@
-# madeline-p14-modal
+# p14-modal-mg
 
 This librairy help you to manage your modals
 
@@ -7,11 +7,11 @@ This librairy help you to manage your modals
 
 to install : 
 ```
-   npm install madeline-p14-modal
+   npm install p14-modal-mg
 ```
 ou :
 ```
-   yarn install madeline-p14-modal
+   yarn install p14-modal-mg
 ```
 
 
@@ -21,7 +21,7 @@ ou :
 
 on the top of files incert :
 ```
-   import { Modal } from 'madeline-p14-modal'
+   import { Modal } from 'p14-modal-mg.default'
 ```
 
 ### how to use :
