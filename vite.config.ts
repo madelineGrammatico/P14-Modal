@@ -8,8 +8,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/components/Modal/Modal.stories.ts'),
-      name: 'p14-modal-mg',
-      fileName: (format) =>`p14-modal-mg.${format}.js`
+      name: 'mg-p14-modal',
+      fileName: (format) =>`mg-p14-modal.${format}.js`
     },
     rollupOptions: {
       external: ['react', 'react-dom'],

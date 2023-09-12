@@ -1,17 +1,17 @@
 {
-  "name": "p14-modal-mg",
-  "version": "0.0.0",
+  "name": "mg-p14-modal",
+  "version": "0.0.1",
   "type": "module",
   "files" : [
     "dist", 
     "README.md"
   ],
-  "main": "./dist/p14-modal-mg.umd.js",
-  "module" : "./p14-modal-mg.es.js",
+  "main": "./dist/mg-p14-modal.umd.js",
+  "module" : "./mg-p14-modal.es.js",
   "exports": {
     ".": { 
-      "import":"./dist/p14-modal-mg.js",
-      "require": "./dist/p14-modal-mg.umd.js"
+      "import":"./dist/mg-p14-modal.js",
+      "require": "./dist/mg-p14-modal.umd.js"
     }
   },
   "scripts": {
