@@ -21,7 +21,7 @@ ou :
 
 on the top of files incert :
 ```
-   import { Modal } from 'mg-p14-modal.default'
+   import { Modal } from 'mg-p14-modal'
 ```
 
 ### how to use :

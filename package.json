@@ -1,16 +1,25 @@
 {
   "name": "mg-p14-modal",
-  "version": "0.0.1",
+  "author": "madelineGrammatico",
+  "description": "This librairy help you to manage your modals",
+  "keywords": [
+    "react",
+    "modal",
+    "p14",
+    "openclassrooms"
+  ],
+  "version": "0.0.7",
   "type": "module",
-  "files" : [
-    "dist", 
+  "files": [
+    "dist",
     "README.md"
   ],
   "main": "./dist/mg-p14-modal.umd.js",
-  "module" : "./mg-p14-modal.es.js",
+  "types": "./dist/mg-p14-modal.es.d.ts",
+  "module": "./dist/mg-p14-modal.es.js",
   "exports": {
-    ".": { 
-      "import":"./dist/mg-p14-modal.js",
+    ".": {
+      "import": "./dist/mg-p14-modal.es.js",
       "require": "./dist/mg-p14-modal.umd.js"
     }
   },
@@ -47,7 +56,9 @@
     "rollup": "^3.28.1",
     "storybook": "^7.4.0",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-plugin-css-injected-by-js": "^3.3.0",
+    "vite-plugin-dts": "^3.5.3"
   },
   "peerDependencies": {
     "react": "^18.2.0",
